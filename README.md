@@ -48,23 +48,50 @@ As it is written above, this is a regular expression that is used to compare and
 
 "{2,6}" is a quantifier. Match with 2 and 6 of the preceding token.
 
-"$" end.  Matches the end of the string, or the end of a line if the multiline flag 
+"$" end.  Matches the end of the string, or the end of a line if the multiline flag (m) is enabled.
 
 ### Anchors
 
 ### Quantifiers
 
+"+" is a quantifier. Match with 1 or more of the preceding token.
+
 ### Grouping Constructs
+
+"()" Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.
+
+([a-z0-9_\.-]+)
+([\da-z\.-]+)
+([a-z\.]{2,6})
 
 ### Bracket Expressions
 
+"[]" Everything inside the brakets become a set to be matched with.
+
+[a-z0-9_\.-]
+[\da-z\.-]
+[a-z\.]
 ### Character Classes
+
+"_" is a character: Matches with a _. 
+
+"\." is a character: Matches with a ".". 
+
+"-" is a character: Matches with a "-".
+
+"@" is a character: Matches with a "@".
+
 
 ### The OR Operator
 
 ### Flags
 
+The code it self does not appear to have any flags however we would probably want to add a golbal and case sensitive flags to this. 
+
 ### Character Escapes
+
+Used to search for any special characters
+"\." is an escaped character: Matches with a ".".
 
 ## Author
 
