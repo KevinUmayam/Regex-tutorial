@@ -22,33 +22,33 @@ As it is written above, this is a regular expression that is used to compare and
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
-^ -  Matches the beginning of the string, or the beginning of a line if the multiline flag.
+"^" -  Matches the beginning of the string, or the beginning of a line if the multiline flag.
 
-() -  Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.
+"()" Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.
 
-[] - Everything inside the brakets become a set to be matched with.
+"[]" Everything inside the brakets become a set to be matched with.
 
-a-z is a Range: Matches characters from a to z, and these are case sensetive. 
+"a-z" is a Range: Matches characters from a to z, and these are case sensetive. 
 
-0-9 is a Range: Matches characters from 0 to 9. 
+"0-9" is a Range: Matches characters from 0 to 9. 
 
-_ is a character: Matches with a _. 
+"_" is a character: Matches with a _. 
 
-\. is a character: Matches with a ".". 
+"\." is a character: Matches with a ".". 
 
-- is a character: Matches with a "-".
+"-" is a character: Matches with a "-".
 
-+ is a quantifier. Match with 1 or more of the preceding token.
+"+" is a quantifier. Match with 1 or more of the preceding token.
 
-@ is a character: Matches with a "@".
+"@" is a character: Matches with a "@".
 
-\d is a digit: Matches with characters from 0 to 9.
+"\d" is a digit: Matches with characters from 0 to 9.
 
-\. is an escaped character: Matches with a ".".
+"\." is an escaped character: Matches with a ".".
 
-{2,6} is a quantifier. Match with 2 and 6 of the preceding token.
+"{2,6}" is a quantifier. Match with 2 and 6 of the preceding token.
 
-$ end.  Matches the end of the string, or the end of a line if the multiline flag 
+"$" end.  Matches the end of the string, or the end of a line if the multiline flag 
 
 ### Anchors
 
