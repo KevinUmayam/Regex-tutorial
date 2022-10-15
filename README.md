@@ -51,6 +51,7 @@ As it is written above, this is a regular expression that is used to compare and
 "$" end.  Matches the end of the string, or the end of a line if the multiline flag (m) is enabled.
 
 ### Anchors
+"$" and "^" would be considered anchors that are resposible for specifying where the string would begin and end.
 
 ### Quantifiers
 
@@ -83,6 +84,8 @@ As it is written above, this is a regular expression that is used to compare and
 
 
 ### The OR Operator
+
+There are no "OR" operators in this expression.
 
 ### Flags
 
