@@ -1,7 +1,5 @@
 # Regex Tutorial
 
-
-
   Regular expressions are a way to efficiently search through text, in order to do things like validate or advance find and replace. Instead of staring with quotes like we would with strings, we would write the regular expression with in slashes "/".  Regular expressions also have flags which are filters that allow us to further our power to througly read text.
 
 ## Summary
@@ -98,4 +96,4 @@ Used to search for any special characters
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+To whoever sees this, I'm Kevin Umayam an upcoming web developer who is currently diving into Regex. I hope this tutorial will be helpful in at least understanding this particular expression. 
